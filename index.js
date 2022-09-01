@@ -31,7 +31,7 @@ function nuevaLista() {
                 nuevaLista();
                 break;
             case 3:
-                sacar = prompt(`Cual tarea deseas eliminar de tu lista?
+                sacar = prompt(`¿Que tarea deseas eliminar de tu lista?
 ${tareas.join("\n")} `).toUpperCase();
                 eliminar(sacar);
                 nuevaLista();
